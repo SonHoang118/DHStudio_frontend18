@@ -1,0 +1,222 @@
+.container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right .input_group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.right input {
+    padding: 5px 15px !important;
+    font-size: 20px !important;
+}
+
+.decsGroup .input_group, .decsGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: none;
+    min-height: 200px;
+    padding: 15px 15px;
+    font-size: 17px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+
+    input {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.left {
+    max-width: 450px
+}
+
+.selectStyle {
+    font-size: 20px;
+    margin: 40px 0;
+    flex-direction: column;
+
+    .listStyle {
+        display: flex;
+        gap: 10px;
+
+        .styleItem {
+            position: relative;
+            padding: 3px 10px;
+            border: 1px solid black;
+            background-color: #fffdce;
+
+            .styleItem_x {
+                font-size: 15px;
+                padding: 0 5px;
+                position: absolute;
+                top: -15px;
+                right: -7px;
+                cursor: pointer;
+                background-color: #fff;
+                border: 1px solid black;
+            }
+        }
+    }
+
+    select {
+        font-size: 25px;
+    }
+
+    .selecteGroup {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.btnStyle {
+    padding: 6px 20px !important;
+    margin: 0 !important;
+}
+
+.product_show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    .timeData{
+        display: flex;
+        position: absolute;
+        top: -80px;left: 0;
+        flex-direction: column;
+        font-style: italic;
+        color: gray;
+        font-size: 13px;
+        span{
+            text-align: start;
+        }
+    }
+
+    .mainImgShow {
+        position: relative;
+
+        .mainImgShowHiden {
+            display: inline-block;
+            border: 1px solid black;
+            width: 400px;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 5px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                /* Đảm bảo ảnh bao phủ toàn bộ không gian */
+            }
+        }
+
+        .deleteImg {
+            font-size: 25px;
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            color: #888585;
+            cursor: pointer;
+            transition: all .1s linear;
+
+            &:hover {
+                color: #9e9d9d;
+            }
+        }
+    }
+
+    .selectMain,
+    .selectMoreImg,
+    .refreshBtn {
+        cursor: pointer;
+        border-radius: 5px;
+        width: 400px;
+        height: 400px;
+        background-color: #e7e4e4;
+        display: flex;
+        border: 2px dashed #ccc;
+        font-size: 50px;
+        color: #888585;
+        justify-content: center;
+        align-items: center;
+        transition: all .1s linear;
+
+        &:hover {
+            background-color: #dfdddd;
+        }
+    }
+
+    .selectMoreImg,
+    .refreshBtn {
+        width: 60px;
+        height: 60px;
+        font-size: 15px;
+    }
+
+    .product_show_sub {
+        height: fit-content;
+        padding-top: 10px;
+        display: flex;
+        gap: 15px;
+        max-width: 400px;
+        overflow-x: auto;
+
+        .subImg {
+            position: relative;
+
+            img {
+                object-fit: cover;
+                border-radius: 5px;
+                width: 60px;
+                height: 60px;
+            }
+
+            .deleteImg {
+                position: absolute;
+                top: -7px;
+                right: -7px;
+                color: #888585;
+                cursor: pointer;
+                transition: all .1s linear;
+
+                &:hover {
+                    color: #9e9d9d;
+                }
+            }
+        }
+    }
+}
+
+.tagName {
+    display: inline-block;
+    margin: 10px 10px;
+    background-color: #dedede;
+    padding: 3px 5px;
+}

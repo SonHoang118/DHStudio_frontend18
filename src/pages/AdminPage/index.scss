@@ -1,0 +1,63 @@
+.btnFnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .btn{
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+        cursor: pointer;
+        gap: 10px;
+        font-size: 20px;
+    }
+    img{
+        width: 70px;
+        height: 70px;
+    }
+}
+td{
+    padding: 20px;
+    .btnAction{
+        width: 20px;
+        height: 20px;
+        margin: 0 15px;
+    }
+    cursor: pointer;
+}
+.tdAction{
+    &:hover{
+        background-color: #bbbbbb;
+    }
+}
+.Tab{
+    display: flex;
+    justify-content: space-between;
+    .leftTab{
+        margin-left: 50px;
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .switchTable{
+        display: flex;
+        // justify-content: end;
+        gap: 10px;
+        margin: 70px 30px 20px 0;
+        img{
+            width: 30px;
+            height: 30px;
+        }
+        .btn{
+            cursor: pointer;
+            // background-color: rgb(242, 242, 242);
+            padding: 10px 60px;
+            border: 1px solid gray;
+        }
+    }
+}

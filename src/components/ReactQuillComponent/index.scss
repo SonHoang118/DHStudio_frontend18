@@ -1,0 +1,109 @@
+.rdw-editor-toolbar {
+    background-color: rgb(247 247 247);
+    border-radius: 5px 5px 0 0;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 101;
+}
+// h1{
+//     font-size: 32px !important;
+// }
+
+.rdw-option-wrapper {
+    height: 28px;
+    background-color: #e7e7e7;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 7px;
+    transition: all 0.1s linear;
+
+    &:hover {
+        filter: brightness(0.8);
+        box-shadow: none;
+    }
+}
+
+.rdw-colorpicker-option {
+    padding: 0 !important;
+}
+
+
+.rdw-editor-wrapper {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    min-height: 400px;
+}
+
+.rdw-editor-main {
+    padding: 0 15px;
+}
+
+.rdw-colorpicker-option {
+    height: unset;
+}
+
+.rdw-link-modal {
+    height: auto;
+}
+
+.rdw-dropdown-wrapper {
+    transition: all .1s linear;
+    border-radius: 3px;
+
+    &:hover {
+        box-shadow: none;
+        background-color: #a4a4a4;
+    }
+}
+
+.rdw-dropdown-optionwrapper,
+.rdw-colorpicker-moda {
+    overflow: auto;
+    box-shadow: 0px 2px 5px 0px #d5d5d5;
+
+    &:hover {
+        box-shadow: 0px 2px 5px 0px #d5d5d5;
+        // box-shadow: none;
+    }
+}
+
+.rdw-colorpicker-modal-options {
+    overflow: auto;
+}
+
+.rdw-option-active {
+    box-shadow: none;
+    background-color: #ffc343;
+}
+
+.rdw-image-modal-upload-option {
+    padding: 9px;
+    height: 60px;
+
+    .rdw-image-modal-upload-option-label {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .rdw-image-modal,
+    .rdw-link-modal,
+    .rdw-colorpicker-modal,
+    .rdw-emoji-modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .rdw-image-imagewrapper {
+        width: 80%;
+
+        img {
+            width: 100% !important;
+        }
+    }
+
+}
