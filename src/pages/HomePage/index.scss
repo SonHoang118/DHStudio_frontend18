@@ -1113,6 +1113,11 @@
             aspect-ratio: 2 / 1;
             outline: none;
         }
+        .inforText{
+            .bottom{
+                display: none;
+            }
+        }
     }
 
     .bottomImg {
