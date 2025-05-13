@@ -177,7 +177,7 @@ const HomePage = () => {
             if (hash === 'linh-vuc' && linhVucRef.current) {
                 linhVucRef.current.scrollIntoView({ behavior: 'smooth' });
             }
-        }, 150);
+        }, 250);
     }, []);
 
 
