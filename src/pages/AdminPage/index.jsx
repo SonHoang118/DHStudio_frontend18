@@ -318,8 +318,8 @@ const AdminPage = () => {
                                 <th>Banner</th>
                                 <th>Tên</th>
                                 <th>Chủ đầu tư</th>
-                                <th>Giá</th>
-                                <th>Địa điểm</th>
+                                <th className='tableHide'>Giá</th>
+                                <th className='tableHide'>Địa điểm</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -335,8 +335,8 @@ const AdminPage = () => {
                                                 </td>
                                                 <td>{project.name}</td>
                                                 <td>{project.investor}</td>
-                                                <td>{priceDisplay(project.totalCost)}</td>
-                                                <td>{project.location}</td>
+                                                <td className='tableHide'>{priceDisplay(project.totalCost)}</td>
+                                                <td className='tableHide'>{project.location}</td>
                                             </>
                                         )
                                     }
