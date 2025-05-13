@@ -4,17 +4,6 @@ import img404 from '../../assets/images/404img.jpg'
 import { Link } from 'react-router-dom'
 
 const NotFoundPage = () => {
-
-  const [width, setWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => setWidth(window.innerWidth);
-
-    window.addEventListener("resize", handleResize);
-    
-    // Cleanup khi component unmount
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
   return (
     <div className={styleModule.not_found_page}>
       <div className={styleModule.not_found_page_top}>
@@ -26,7 +15,6 @@ const NotFoundPage = () => {
         to={'/'}
         className={styleModule.not_found_page_btn}
       ><i className='fa-solid fa-house' /> Quay lại trang chủ</Link>
-      <p>Chiều rộng màn hình: {width}px</p>
     </div>
   )
 }
