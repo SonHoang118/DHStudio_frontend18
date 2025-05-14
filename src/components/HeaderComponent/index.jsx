@@ -50,7 +50,7 @@ const HeaderComponent = () => {
                     <li onClick={() => handleNavClick('bai-viet')}>Bài viết</li>
                     <li onClick={() => handleNavClick('du-an')}>Dự án</li>
                     <li onClick={() => handleNavClick('lien-he')}>Liên hệ</li>
-                    <div className='phoneCall'><i className="fa-solid fa-phone"></i> 0356322298</div>
+                    <div className='phoneCall'><i className="fa-solid fa-phone"></i> 0983239596</div>
                 </div>
 
                 <div className='navMobile' onClick={() => setShowMenu(true)}>
