@@ -71,10 +71,10 @@ const FooterConponent = () => {
                     <div className={styleModule.contactInfo}>
                         <h2>Thông tin liên hệ</h2>
                         <div><b>Công ty: </b><span>DHStudio tư vấn và thiết kế kiến trúc</span></div>
-                        <div><b>Địa chỉ: </b><span>17 Đông Hội, Thôn Trung Thôn, Đông Anh, Hà Nội, Việt Nam</span></div>
-                        <div><b>Hotline: </b><span>0356322298, 0988757265</span></div>
-                        <div><b>Email: </b><span>dhstudio.architecure@gmail.com</span></div>
-                        <div><b>Website: </b><span>https://www.dhstudio.com.vn/</span></div>
+                        <div><b>Địa chỉ: </b><span>7 Đông Hội, Thôn Trung Thôn, Đông Anh, Hà Nội, Việt Nam</span></div>
+                        <div><b>Hotline: </b><span>0983239596</span></div>
+                        <div><b>Email: </b><span>dhs.studio.arch@gmail.com</span></div>
+                        <div><b>Website: </b><span>https://www.dhstudio.com.vn</span></div>
                     </div>
                     <div className={styleModule.aboutUs}>
                         <h2>Về chúng tôi</h2>
@@ -96,7 +96,7 @@ const FooterConponent = () => {
                             <li onClick={() => handleNavClick('lien-he')}><div className={`${styleModule.footer_contact_item}`} id="item_email" style={{ backgroundImage: `url(${emailIcon})` }}></div></li>
                             <a className={`${styleModule.footer_contact_item}`} id="item_messenger" href="https://m.me/104988175154682" target="_blank" style={{ backgroundImage: `url(${mesengerIcon})` }}></a>
                             <a className={`${styleModule.footer_contact_item}`} id="item_zalo" href="https://zalo.me/0971833093" target="_blank" style={{ backgroundImage: `url(${zaloIcon})` }}></a>
-                            <a className={`${styleModule.footer_contact_item}`} id="item_phone" href="tel: +0971833093" style={{ backgroundImage: `url(${phoneIcon})` }}></a>
+                            <a className={`${styleModule.footer_contact_item}`} id="item_phone" href="tel: +0983239596" style={{ backgroundImage: `url(${phoneIcon})` }}></a>
                         </ul>
                     </div>
 
