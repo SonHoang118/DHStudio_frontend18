@@ -95,7 +95,7 @@ const FooterConponent = () => {
                         <ul className={`${styleModule.footer_contact_list}`}>
                             <li onClick={() => handleNavClick('lien-he')}><div className={`${styleModule.footer_contact_item}`} id="item_email" style={{ backgroundImage: `url(${emailIcon})` }}></div></li>
                             <a className={`${styleModule.footer_contact_item}`} id="item_messenger" href="https://m.me/104988175154682" target="_blank" style={{ backgroundImage: `url(${mesengerIcon})` }}></a>
-                            <a className={`${styleModule.footer_contact_item}`} id="item_zalo" href="https://zalo.me/0971833093" target="_blank" style={{ backgroundImage: `url(${zaloIcon})` }}></a>
+                            <a className={`${styleModule.footer_contact_item}`} id="item_zalo" href="https://zalo.me/0983239596" target="_blank" style={{ backgroundImage: `url(${zaloIcon})` }}></a>
                             <a className={`${styleModule.footer_contact_item}`} id="item_phone" href="tel: +0983239596" style={{ backgroundImage: `url(${phoneIcon})` }}></a>
                         </ul>
                     </div>
