@@ -50,6 +50,7 @@ function App() {
         <Route path="/" element={<> <HeaderComponent /> <HomePage /> <FooterConponent /></>} />
         <Route path="/system/authorization/admin/management" element={<AdminPage />} />
         <Route path="/system/authorization/admin/login" element={<LoginPage />} />
+        <Route path="/system/login" element={<LoginPage />} />
         <Route path="/bai-viet/:slugify" element={<><HeaderComponent /><PostPage /><FooterConponent /></>} />
         <Route path="/du-an/:slugify" element={<><HeaderComponent /><ProjectPage /><FooterConponent /></>} />
         <Route path="/*" element={<><HeaderComponent /><NotFoundPage /><FooterConponent /></>} />
